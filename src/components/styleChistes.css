@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(135deg, #cce7ff 40%, #e0e0e0 100%); 
+  margin: 0;
+  padding: 0;
+}
+.chistes-container {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+   
+  
+  .chistes-btn {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chistes-btn:hover {
+    background-color: #5a6268; 
+  }
+  .chiste-aleatorio {
+    margin-top: 5px;
+    padding: 15px;
+    background-color: #fffacd;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+  }
+   
+  
+  .chiste-category {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .chiste-joke {
+    font-style: normal;
+    font-size: 1.1em;
+  }
